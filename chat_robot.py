@@ -21,6 +21,8 @@ def get_robot_reply(question):
 
     if "你叫什么名字" in question:
         answer = "我是小西瓜"
+    elif "我还有多少钱" in question:
+        answer = "100元"
     elif "你多少岁"in question:
         answer = "3"
     elif "你是小哥哥还是小姐姐" in question:
