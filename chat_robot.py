@@ -14,8 +14,8 @@ def get_robot_reply(question):
     返回值：str,回复内容
 
     '''
-    print("问题：")
-    question = input()
+    # print("问题：")
+    # question = input()
     
 
 
@@ -48,4 +48,9 @@ if __name__ == '__main__':
     # print(get_robot_reply("石首今天天气如何"))
     # print(get_robot_reply("你是男是女"))
     # print(get_robot_reply("你到底是谁"))
-    print(get_robot_reply("question"))
+    # print(get_robot_reply("question"))
+    while True:
+        q = input("\n我说：")
+        answer = get_robot_reply("question")
+        print("\n小魔仙说：%s" %answer)
+
